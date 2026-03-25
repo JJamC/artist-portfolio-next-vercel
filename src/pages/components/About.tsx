@@ -7,9 +7,9 @@ export default function About() {
       <p>
         I was born in Manchester where my earliest formative musical influences
         included the souundtracks of The Legend of Zelda and Kingdom Hearts, the
-        garage and bassline tracks I would hear through my sister&apos;s
-        bedroom wall and my mum&apos;s love of 80s R&B, which would play in the
-        kitchen all all through the summer months.
+        garage and bassline tracks I would hear through my sister&apos;s bedroom
+        wall and my mum&apos;s love of 80s R&B, which would play in the kitchen
+        all through the summer months.
         <br></br>
         <br></br>I began playing piano at the age of 14 and must have learned
         quite quickly as 4 years later I was studying at the Royal Northern
@@ -31,11 +31,11 @@ export default function About() {
         As a solo pianist, I construct my programmes around narratives carefully
         crafted to take the listener on an emotional arc across the trajectory
         of the entire concert. Music has so many stories to tell and I play my
-        part in this as much as I can. Music production and composition came
-        much later as a means of reconnecting with what drew me to music as
-        young person after the rigour of studying at a music conservatoire. I
-        draw from a wide range of genres and enjoy the uncertainty of never
-        quite knowing what might arise. At the heart of my pratice is a playful
+        part in this as much as I can. Music production and composition came later and followed after the rigour of studying at a music conservatoire. I wanted a means of
+        reconnecting with what drew me to music as a young person and to the
+        aforementioned early musical memories from my childhood home. I draw
+        from a wide range of genres and enjoy the uncertainty of never quite
+        knowing what might arise. At the heart of my pratice is a playful
         curiosity and eclecticism which, I hope, will never fail to take me to
         colourful and unexpected places.
       </p>
