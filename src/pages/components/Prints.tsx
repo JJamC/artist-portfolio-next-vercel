@@ -54,9 +54,9 @@ export default function Prints() {
     <div>
       <div className="mb-5 flex">
         <p className="w-[200px]">
-          <b>Prints |</b> &apos;Prints&apos; is an ever-growing series of
-          short piano compositions composed out of response to artworks that
-          have vivdly inspired me.
+          <b>Prints |</b> &apos;Prints&apos; is a growing series of
+          piano compositions conceived as evocations of artworks that
+          have vividly inspired me.
         </p>
         <iframe
           className="aspect-[16/7] w-250"

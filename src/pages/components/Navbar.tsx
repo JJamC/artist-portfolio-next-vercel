@@ -72,7 +72,7 @@ export default function Navbar({ setNav, setActive, active }: NavbarProps) {
           setActive("production");
         }}
       >
-        <h2>Production</h2>
+        <h2>Music Production</h2>
       </a>
 
       <a

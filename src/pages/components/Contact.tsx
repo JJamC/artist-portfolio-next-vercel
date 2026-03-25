@@ -22,8 +22,8 @@ export default function ContactForm() {
 
   return (
     <div>
-      <p>Want to work with me?</p>
-      <p>Get in touch :) </p>
+      <p>Want to work together?</p>
+      <p>Get in touch ! </p>
       <form
         action="#"
         method="POST"

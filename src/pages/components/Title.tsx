@@ -11,16 +11,19 @@ export default function Title({ setNav, setActive }: TitleProps) {
 
   return (
     <>
-      <div className=" justify-self-center">
+      <div className="justify-self-center">
         <a
           href="#"
           onClick={(e) => {
             e.preventDefault();
             handleNavClick("Home");
-            setActive("")
+            setActive("");
           }}
         >
-          <h1 className="text-center text-5xl">Jay Jameil Carroll</h1>
+          <h1 className="text-4xl">Jay Jameil Carroll</h1>
+          <p className="text-center">
+            <b>Pianist | Composer | Producer</b>
+          </p>
         </a>
       </div>
     </>
