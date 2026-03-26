@@ -15,7 +15,7 @@ export default function Blog() {
           Hey there, I&apos;m Jay <b>|</b>
           <br></br>
           <br></br>
-          I&apos;m a musician currently based in Manchester, UK <b>|</b>
+          I&apos;am a musician currently based in Manchester, UK <b>|</b>
           <br></br> <br></br>
           Here you&apos;ll find examples of my performances, original
           compositions and productions, and just about anything else I get up to
