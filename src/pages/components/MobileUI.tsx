@@ -18,7 +18,7 @@ export default function MobileUI({ setNav, nav, setActive, active }: MobileUIPro
         <Title setActive={setActive} setNav={setNav}></Title>
         <Blog></Blog>
       </div>
-      <div>
+      <div className="mt-5">
         <Navbar setActive={setActive} setNav={setNav} active={active}></Navbar>
       </div>
       <br></br>
