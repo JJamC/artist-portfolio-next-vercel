@@ -1,7 +1,7 @@
 export default function Blog() {
 
   return (
-    <div>
+    <div className="">
       <img
         className="h-full w-full object-cover"
         src={

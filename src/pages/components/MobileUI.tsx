@@ -1,5 +1,4 @@
 import Blog from "./Blog";
-import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 import Page from "./Page";
 import Title from "./Title";

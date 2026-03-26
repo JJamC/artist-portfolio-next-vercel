@@ -61,7 +61,7 @@ export default function Prints() {
           allowFullScreen
         />
       </div>
-      <p className="p-5 mx-15">
+      <p className="p-5 md:mx-15">
         <b>Prints |</b> a growing series of piano compositions which evoke
         artworks that have vividly inspired me.
       </p>

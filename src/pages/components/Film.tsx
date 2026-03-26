@@ -6,7 +6,7 @@ export default function Recordings() {
     [
       "https://www.youtube.com/embed/GeRSjzX7UjY?si=UTGEh4E4suYXl_W2",
       "Composer | ",
-      "Mother Tongue - Episode 4 - Season 1: Babes with Blades",
+      "Mother Tongue - Episode 4 ",
     ],
     [
       "https://www.youtube.com/embed/j7YeLRVz9GY?si=GDRrAhkn7He4wQV7",
@@ -28,7 +28,7 @@ export default function Recordings() {
             />
           );
         })}
-        </ul>
+      </ul>
     </div>
   );
 }

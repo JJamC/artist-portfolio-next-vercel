@@ -13,7 +13,7 @@ export default function YoutubeEmbed({
   return (
     <div>
     <iframe
-      className="h-60 w-100"
+      className="md:h-60 md:w-100"
       src={embedSrc}
       title="YouTube video"
       allow="autoplay; encrypted-media"
@@ -21,7 +21,7 @@ export default function YoutubeEmbed({
       />
       <div>
         {title && <p><b>{title}</b></p>}
-    {description && <p>{description}</p>}
+    {description && <p className="">{description}</p>}
       </div>
       </div>
   );
