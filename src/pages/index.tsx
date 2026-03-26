@@ -1,32 +1,35 @@
-import { useState } from "react";
-import Title from "./components/Title";
-import Blog from "./components/Blog";
-import Navbar from "./components/Navbar";
-import Page from "./components/Page";
+"use client"
+import { useState, useEffect } from "react";
+import DesktopUI from "./components/DesktopUI";
+import MobileUI from "./components/MobileUI";
 
 export default function Home() {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 768px)");
+    setIsMobile(media.matches);
+
+    const listener = () => setIsMobile(media.matches);
+    media.addEventListener("change", listener);
+
+    return () => media.removeEventListener("change", listener);
+  }, []);
+
+
   const [nav, setNav] = useState("Home");
   const [active, setActive] = useState("");
 
-  return (
-    <div className="m-10 flex items-center justify-center">
-      <div className="grid grid-cols-[350px_900px] gap-[70px]">
-        <div className="grid-span-1 justify-self-center">
-          <Title setNav={setNav} setActive={setActive} />
-        </div>
 
-        <div className="grid-span-2">
-          <Navbar setNav={setNav} setActive={setActive} active={active} />
-        </div>
-
-        <div className="grid-span-1 content-start">
-          <Blog />
-        </div>
-
-        <div className="grid-span-2">
-          <Page nav={nav} />
-        </div>
-      </div>
-    </div>
+  return isMobile ? (
+    <MobileUI nav={nav} setNav={setNav} active={active} setActive={setActive} />
+  ) : (
+    <DesktopUI
+      nav={nav}
+      setNav={setNav}
+      active={active}
+      setActive={setActive}
+    />
   );
 }

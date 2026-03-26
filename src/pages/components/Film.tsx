@@ -17,7 +17,7 @@ export default function Recordings() {
 
   return (
     <div>
-      <ul className="flex  justify-end gap-[60px]">
+      <ul className="flex flex-wrap justify-center gap-[60px] md:justify-end">
         {recordings.map(([src, title, desc], i) => {
           return (
             <YoutubeEmbed

@@ -17,7 +17,7 @@ export default function Navbar({ setNav, setActive, active }: NavbarProps) {
   };
 
   return (
-    <nav className="flex justify-end gap-4 text-[20px] text-white">
+    <nav className="flex justify-center md:justify-end gap-5 md:text-[20px]">
       <a
         className={linkStyles("about")}
         href="#"
@@ -72,7 +72,7 @@ export default function Navbar({ setNav, setActive, active }: NavbarProps) {
           setActive("production");
         }}
       >
-        <h2>Music Production</h2>
+        <h2>Tracks</h2>
       </a>
 
       <a

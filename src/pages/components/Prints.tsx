@@ -52,22 +52,21 @@ export default function Prints() {
 
   return (
     <div>
-      <div className="mb-5 flex">
-        <p className="w-[200px]">
-          <b>Prints |</b> &apos;Prints&apos; is a growing series of
-          piano compositions conceived as evocations of artworks that
-          have vividly inspired me.
-        </p>
+      <div className="mb-5 flex flex-col justify-center md:flex-row">
         <iframe
-          className="aspect-[16/7] w-250"
+          className="aspect-[16/7] md:w-250"
           src={videoPlaying}
           title="YouTube video"
           allow="autoplay; encrypted-media"
           allowFullScreen
         />
       </div>
+      <p className="p-5 mx-15">
+        <b>Prints |</b> a growing series of piano compositions which evoke
+        artworks that have vividly inspired me.
+      </p>
       <div>
-        <ul className="flex flex-wrap justify-end gap-[40px]">
+        <ul className="flex flex-wrap justify-center gap-[40px]">
           {prints.map(([src, thumbnail], i) => {
             return (
               <PrintsGallery
