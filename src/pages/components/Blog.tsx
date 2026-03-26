@@ -1,7 +1,9 @@
+import { FaYoutube } from "react-icons/fa";
+
 export default function Blog() {
 
   return (
-    <div className="">
+    <div>
       <img
         className="h-full w-full object-cover"
         src={

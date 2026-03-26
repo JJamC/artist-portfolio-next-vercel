@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import { FaYoutube } from "react-icons/fa";
 
 export default function ContactForm() {
 
@@ -18,8 +19,10 @@ export default function ContactForm() {
 
   return (
     <div>
-      <p>Want to work together?</p>
-      <p>Get in touch ! </p>
+      <div className="mb-10 text-center">
+        <p>Want to work together?</p>
+        <p>Get in touch ! </p>
+      </div>
       <form
         action={handleSubmit}
         method="POST"

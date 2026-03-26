@@ -17,7 +17,7 @@ export default function Navbar({ setNav, setActive, active }: NavbarProps) {
   };
 
   return (
-    <nav className="flex flex-wrap justify-center gap-5 md:flex-row md:justify-end md:gap-5 md:text-[20px]">
+    <nav className="flex flex-wrap justify-center gap-4 md:flex-row md:justify-end md:gap-5 md:text-[20px]">
       <a
         className={linkStyles("about")}
         href="#"
