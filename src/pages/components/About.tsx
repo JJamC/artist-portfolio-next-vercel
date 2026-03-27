@@ -35,7 +35,7 @@ export default function About() {
         series at <b>St Ann&apos;s Church, Manchester</b>.<br></br>
         <br></br>
         As a solo pianist, I construct my programmes around themes which invite
-        the audience on an journey of introspection and communal self-exploration. Music has
+        the audience on a journey of introspection and communal self-exploration. Music has
         so many stories to tell us about the world around us, each other and
         ourselves and I play my part in sharing this as much as I can. <br></br>
         <br></br>Music production and composition came later after

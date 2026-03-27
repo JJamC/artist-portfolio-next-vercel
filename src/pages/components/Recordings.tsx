@@ -2,10 +2,10 @@ import YoutubeEmbed from "./YoutubeEmbed";
 export default function Recordings() {
 
   const recordings = [
+    ["https://www.youtube.com/embed/CYisGxXxsgM?si=ccSnWh-01LiQEyhf"],
     ["https://www.youtube.com/embed/dcQ_j8vI51I?si=ESapAf-NXIgRFxsY"],
     ["https://www.youtube.com/embed/_F2Yh0cqyXM?si=94NdQ-VheIdyf_Lh"],
     ["https://www.youtube.com/embed/2ZRS0YciqWE?si=TVGuLkxEBiVdIutC"],
-    ["https://www.youtube.com/embed/CYisGxXxsgM?si=ccSnWh-01LiQEyhf"],
   ];
 
   return (

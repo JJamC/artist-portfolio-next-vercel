@@ -14,10 +14,10 @@ export default function MobileUI({ setNav, nav, setActive, active }: MobileUIPro
 
   return (
     <div className="m-5">
-      <div>
+      <div className="mb-5">
         <Title setActive={setActive} setNav={setNav}></Title>
-        <Blog></Blog>
       </div>
+        <Blog></Blog>
       <div className="mt-5">
         <Navbar setActive={setActive} setNav={setNav} active={active}></Navbar>
       </div>
