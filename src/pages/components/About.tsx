@@ -41,7 +41,7 @@ export default function About() {
         <br></br>Music production and composition came later after
         the rigour of studying at a music conservatoire. I wanted a means of
         reconnecting with what drew me to music as a young person and to the
-        aforementioned early musical memories from my childhood home. I draw
+        aforementioned early musical memories of my childhood home. I draw
         from a wide range of genres and enjoy the uncertainty of never quite
         knowing what might arise. At the heart of my pratice is a playful
         curiosity and eclecticism which, I hope, will never fail to take me to
