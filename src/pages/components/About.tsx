@@ -29,9 +29,9 @@ export default function About() {
         <br></br>
         <br></br>
         Since graduating, highlights include performing at the
-        <b> Royal Dublin Society</b>, giving a series of children&apos;s
+        <b> Royal Dublin Society</b>, touring a series of children&apos;s
         interactive piano duo concerts throughout
-        <b> Valencia, Spain</b> and aiding to establish a chamber concert
+        <b> Valencia, Spain</b> and regularly performing in the chamber concert
         series at <b>St Ann&apos;s Church, Manchester</b>.<br></br>
         <br></br>
         As a solo pianist, I construct my programmes around themes which invite
