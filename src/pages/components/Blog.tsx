@@ -6,9 +6,7 @@ export default function Blog() {
     <div>
       <img
         className="h-full w-full object-cover"
-        src={
-          "https://artist-page-images-32345.s3.eu-north-1.amazonaws.com/Prints/website.jpg"
-        }
+        src={"https://jjamc.github.io/artist-website-images/website.jpg"}
         alt="YouTube thumbnail"
       />
       <br></br>
