@@ -35,17 +35,18 @@ export default function About() {
         series at <b>St Ann&apos;s Church, Manchester</b>.<br></br>
         <br></br>
         As a solo pianist, I construct my programmes around themes which invite
-        the audience on a journey of introspection and communal self-exploration. Music has
-        so many stories to tell us about the world around us, each other and
-        ourselves and I play my part in sharing this as much as I can. <br></br>
-        <br></br>Music production and composition came later after
-        the rigour of studying at a music conservatoire. I wanted a means of
-        reconnecting with what drew me to music as a young person and to the
-        aforementioned early musical memories of my childhood home. I draw
-        from a wide range of genres and enjoy the uncertainty of never quite
-        knowing what might arise. At the heart of my pratice is a playful
-        curiosity and eclecticism which, I hope, will never fail to take me to
-        colourful and unexpected places.
+        the audience on a journey of introspection and communal
+        self-exploration. Music has so many stories to tell us about the world
+        around us, each other and ourselves and I play my part in sharing this
+        as much as I can. <br></br>
+        <br></br>Music production and composition came later after the rigour of
+        studying at a music conservatoire. I wanted a means of reconnecting with
+        what drew me to music as a young person and to the aforementioned early
+        musical memories of my childhood home. I draw from a wide range of
+        genres and enjoy the uncertainty of never quite knowing what might
+        arise. At the heart of my pratice is a playful curiosity and eclecticism
+        which, I hope, will never fail to take me to colourful and unexpected
+        places.
       </p>
       <br></br>
     </div>

@@ -95,11 +95,11 @@ export default function Prints() {
       </div>
       <p className="p-5 md:mx-15">
         <b>El Baño de los Espíritus |</b> A piano composition that I composed
-        out of response to Santiago Yahuarcani's painting of the same name. The
-        painting formed part of his exhibition The Beginning of Knowledge that
-        was on display at the Whitworth Art Gallery, Manchester in 2025. In this
-        composition, I attempted to capture a sense of the power of the gods
-        depicted in Yuhuarcani's paintings.
+        out of response to Santiago Yahuarcani&apos;s painting of the same name.
+        The painting formed part of his exhibition The Beginning of Knowledge
+        that was on display at the Whitworth Art Gallery, Manchester in 2025. In
+        this composition, I attempted to capture a sense of the power of the
+        gods depicted in Yuhuarcani&apos;s paintings.
       </p>
       <br></br>
       <br></br>
