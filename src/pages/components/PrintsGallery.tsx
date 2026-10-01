@@ -11,7 +11,6 @@ export default function PrintsGallery({
   embedSrc,
   thumbnail,
   setVideoPlaying,
-  isPlaying
 }: YoutubeEmbedProps) {
   
   const handlePlay = () => {

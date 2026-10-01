@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
-import { FaYoutube } from "react-icons/fa";
+import { useForm } from "@formspree/react";
+
 
 export default function ContactForm() {
 
